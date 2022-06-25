@@ -1,4 +1,4 @@
-package day2;
+package com.day2;
 
 public class CricketScore {
     static void scoreCal(int a, int b, int c, int d, int e ){

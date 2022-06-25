@@ -1,4 +1,4 @@
-package day2;
+package com.day2;
 
 public class SumOfNatural {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package day2;
+package com.day2;
 
 public class Main {
     static void primeFactor(int n){

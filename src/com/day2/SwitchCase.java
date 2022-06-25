@@ -1,4 +1,4 @@
-package day2;
+package com.day2;
 
 public class SwitchCase {
     static void cityCheck(String cName){
