@@ -1,0 +1,45 @@
+Q1) Write the difference between JRE, JDK and JVM?
+Ans- JRE(Java Runtime Environment) is an installation package that provides an environment to only run the java program or application onto machine. JRE is only used by those who only want to run Java programs that are end-users of your system.
+
+JDK(Java Development Kit) is a Kit that provides the environment to develop and execute the java program. JDK includes two things one is Development Kit and other is JRE(Java Runtime Environment).
+
+JVM(Java virtual Machine) is a very important part of both JDK and JRE. it is inbuilt in both. Whatever Java Program we run using JRE or JDK goes into JVM and JVM is responsible for executing the java program, hence it is also known as interpreter.
+
+Q2) Write the difference between JSE, JEE and JME?
+Ans- 	JSE(Java Standard Edition)- You can develop standalone applications/desktop applications or even write scripts using Selenium tool for Automation Testing.
+	JEE(Java Enterprise Edition)– It’s used to develop rich enterprise web applications.
+	JME(Java Micro Edition)– Can be used to develop applications running on mobile devices, embedded systems etc.
+
+Q3) How does java achieve platform independency?
+Ans- The meaning of platform-independent is that the java compiled code(byte code) can run on all operating systems.
+Whenever, a program is written in JAVA, the javac compiles it.
+The result of the JAVA compiler is the .class file or the bytecode and not the machine native code (unlike C compiler).
+The bytecode generated is a non-executable code and needs an interpreter to execute on a machine. This interpreter is the JVM and thus the Bytecode is executed by the JVM.
+And finally program runs to give the desired output.
+		Java is platform-independent but JVM is platform dependent.
+
+Q4) What are features of Java and explain them?
+Ans- The prime reason creation of Java was to bring protability and security feature into a computer language. Beside these two major features, there are lots of feature Java have, those are-
+1.It is a Simple Language.
+2.Object Oriented.
+3.Robus
+4.Platform Independent
+5.Secure.
+6.Multi Threading
+7.Architectural Netural
+8.Portable
+9.High Performace and many more
+
+Q5) Write a Java Application which prints your details?
+	class Main{
+		public static void main(String[] args){
+			System.out.println("Name: Rajesh");
+			System.out.println("Father's Name: Haridas");
+			System.out.println("Moher's Name: Kavita");
+			System.out.println("Age: 25");
+			System.out.println("Gender: Male");
+			System.out.println("Address: Kolkata");
+			System.out.println("Mobile No.: 9584144887");
+		}
+	}
+			
